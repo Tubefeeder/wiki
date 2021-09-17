@@ -1,3 +1,5 @@
+# Add touch controlls to mpv
+
 If you want some touch-controls for mpv, follow the instructions of [this comment](https://github.com/mpv-player/mpv/issues/6434#issuecomment-658174223). I will summarize how to do it:
 
 * Create the file `~/.config/mpv/scripts/touchscreen-seek.lua` on your Pinephone

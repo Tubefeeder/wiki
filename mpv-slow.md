@@ -1,3 +1,5 @@
+# Mpv is slow
+
 If your video playback is slow, it is mostly because of the underpowered hardware and the lack of hardware acceleration for MPV of the Pinephone. Furthermove MPV will always play the best quality video and audio it can get, even on the low screen-resolution on the Pinephone.
 
 The negate this issue, I recommend putting this line into `~/.config/mpv/mpv.conf`

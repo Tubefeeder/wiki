@@ -1,13 +1,17 @@
-# Prerequisites (on your Pinephone)
+# Installation
+
+## Flatpak (recommended)
+
+The installation of flatpak is the easiest, you can find the application on [flathub](https://flathub.org/apps/details/de.schmidhuberj.tubefeeder). Follow the instructions over there. You will not need to install any prerequisites other than mentioned on the flatpak installation guide.
+
+## Appimage
+
+### Prerequisites
 
 * [mpv](https://mpv.io/) (or any other video player if you follow [this](https://github.com/Schmiddiii/Tubefeeder/wiki/Using-a-different-player)
 * [youtube-dl](https://youtube-dl.org/) (will often be installed with mpv)
 
-# Installation with AppImage of Flatpak
-
-This is the recommended way of installing the application.
-
-The installation of flatpak is the easiest, you can find the application on [flathub](https://flathub.org/apps/details/de.schmidhuberj.tubefeeder). Follow the instructions over there.
+# Installation
 
 To use the AppImage, just download it from the [releases](https://github.com/Schmiddiii/Tubefeeder/releases) tab to your Pinephone.
 I recommend the usage of [appimaged](https://github.com/probonopd/go-appimage) to integrate the application to your 

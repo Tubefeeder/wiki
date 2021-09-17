@@ -1,4 +1,6 @@
-# The normal way
+# Subscribing to a channel
+
+## The normal way
 
 Just go to the subscriptions tab, click the `+`-icon and type in the desired channel name and click the confirm-button.
 The channel name does not have to equal the shown name on the channel page. 
@@ -9,7 +11,7 @@ It should look like `https://www.youtube.com/c/{}/featured`, with `{}` beeing th
 You can also put a channel ID into the input box.
 For more information about the channel ID, read the next headline.
 
-# Old way (usefull for mass subscription)
+## Old way (usefull for mass subscription)
 
 Note: This is currently broken in the `refactor`-branch and will be changed.
 

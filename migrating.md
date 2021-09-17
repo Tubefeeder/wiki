@@ -1,5 +1,6 @@
+# Migration from other services
 
-# From NewPipe
+## From NewPipe
 
 Note: This is currently broken in the `refactor`-branch and will be changed.
 
