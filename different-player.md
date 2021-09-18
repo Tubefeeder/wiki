@@ -32,7 +32,7 @@ flatpak info --show-permissions de.schmidhuberj.tubefeeder
 
 You should see:
 
-```toml
+```
 [Session Bus Policy]
 org.freedesktop.Flatpak=talk
 ```
