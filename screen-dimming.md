@@ -20,3 +20,5 @@ To disable the sensor, follow the instructions in the [comment of this reddit po
 ## Working for Arch
 
 Remove the file `/usr/lib/udev/rules.d/10-proximity.rules` from the Pinephone and reboot the phone.
+
+{% include_relative notice_with_header.md %}

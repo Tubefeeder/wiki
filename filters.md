@@ -10,3 +10,4 @@ The filter can contain any regular expression, so you can make your filter as co
 
 Just go to the `Filters` tab , click the `+`-button and enter the information and confirm.
 
+{% include_relative notice_with_header.md %}
