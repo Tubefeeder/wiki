@@ -52,3 +52,5 @@ Note: This method of installation is recommended, if you want the newest feature
     * Change `{user}` in the `tubefeeder.desktop` file to the user of your pinephone 
     * Copy the .desktop file (e.g. `scp tubefeeder.desktop {user}@{ip}:~/.local/share/applications`)
     * Copy the .png file (e.g. `scp tubefeeder.png {user}@{ip}:~/.local/share/icons`)
+
+{% include_relative notice-with-header.md %}

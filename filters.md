@@ -9,3 +9,5 @@ The filter can contain any regular expression, so you can make your filter as co
 ## Adding filters
 
 Just go to the `Filters` tab , click the `+`-button and enter the information and confirm.
+
+{% include_relative notice-with-header.md %}
