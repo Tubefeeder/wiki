@@ -16,6 +16,7 @@ This wiki contains:
 
 * [Migrating](https://tubefeeder.github.io/wiki/migrating.html)
 * [Touch-Controls for mpv](https://tubefeeder.github.io/wiki/mpv-touch-controlls.html)
+* [Tested distributions](https://tubefeeder.github.io/wiki/tested-on.html)
 
 ## For developers
 
