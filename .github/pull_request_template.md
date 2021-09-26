@@ -1,6 +1,7 @@
 # Licensing 
 
 - [ ] I confirm that this is either my code or was released under the terms of a GNU FDL 1.3 or later compatible license and the CC-BY-SA-4.0 license. Also I agree to release it here under the terms of the GNU FDL 1.3 or later and the CC-BY-SA-4.0 license.
+- [ ] I confirm that I have put copyright information in the new or edited files if wanted.
 
 # Description
 
