@@ -12,4 +12,8 @@ This will force MPV to use 720p video (the Pinephone also only has a 720p screen
 
 Video Playback should now be acceptable.
 
-{% include_relative notice-with-header.md %}
+## Notice
+
+{% include_relative copyright_schmidhuber_julian.md %}
+
+{% include_relative NOTICE %}

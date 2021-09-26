@@ -21,4 +21,8 @@ To disable the sensor, follow the instructions in the [comment of this reddit po
 
 Remove the file `/usr/lib/udev/rules.d/10-proximity.rules` from the Pinephone and reboot the phone.
 
-{% include_relative notice-with-header.md %}
+## Notice
+
+{% include_relative copyright_schmidhuber_julian.md %}
+
+{% include_relative NOTICE %}

@@ -80,4 +80,8 @@ MBTN_LEFT_DBL script-binding touchscreen-seek
 
 You should now have touch controlls for mpv.
 
-{% include_relative notice-with-header.md %}
+## Notice
+
+{% include_relative copyright_schmidhuber_julian.md %}
+
+{% include_relative NOTICE %}

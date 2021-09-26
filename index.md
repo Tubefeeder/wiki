@@ -28,4 +28,8 @@ This wiki contains:
 * [Problems with screen dimming](https://tubefeeder.github.io/wiki/screen-dimming.html)
 * [MPV beeing slow](https://tubefeeder.github.io/wiki/mpv-slow.html)
 
-{% include_relative notice-with-header.md %}
+## Notice
+
+{% include_relative copyright_schmidhuber_julian.md %}
+
+{% include_relative NOTICE %}

@@ -12,4 +12,8 @@ If you are using [NewPipe](https://newpipe.net/), you can migrate your subscript
 * Save the generated output in a file "subscriptions.db", move this file to your Pinephone to "~/.local/share/tubefeeder/subscriptions.db"
 * Restart Tubefeeder 
 
-{% include_relative notice-with-header.md %}
+## Notice
+
+{% include_relative copyright_schmidhuber_julian.md %}
+
+{% include_relative NOTICE %}

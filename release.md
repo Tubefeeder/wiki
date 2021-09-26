@@ -12,4 +12,8 @@ There are a few things that need to be done to create a new release.
 - Update flathub `de.schmidhuberj.tubefeeder.json` module tubefeeder with released tar.gz and sha256
 - Validate flatpak
 
-{% include_relative notice-with-header.md %}
+## Notice
+
+{% include_relative copyright_schmidhuber_julian.md %}
+
+{% include_relative NOTICE %}

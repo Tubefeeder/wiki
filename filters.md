@@ -10,4 +10,8 @@ The filter can contain any regular expression, so you can make your filter as co
 
 Just go to the `Filters` tab , click the `+`-button and enter the information and confirm.
 
-{% include_relative notice-with-header.md %}
+## Notice
+
+{% include_relative copyright_schmidhuber_julian.md %}
+
+{% include_relative NOTICE %}

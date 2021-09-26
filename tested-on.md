@@ -33,3 +33,9 @@ cd Tubefeeder
 
 cargo build --release
 ```
+
+## Notice
+
+{% include_relative copyright_schmidhuber_julian.md %}
+
+{% include_relative NOTICE %}

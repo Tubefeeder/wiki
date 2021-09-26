@@ -49,4 +49,8 @@ Note: This method of installation is not recommended unless you want to contribu
     * Copy the .desktop file (e.g. `scp tubefeeder.desktop {user}@{ip}:~/.local/share/applications`)
     * Copy the .png file (e.g. `scp tubefeeder.png {user}@{ip}:~/.local/share/icons`)
 
-{% include_relative notice-with-header.md %}
+## Notice
+
+{% include_relative copyright_schmidhuber_julian.md %}
+
+{% include_relative NOTICE %}

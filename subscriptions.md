@@ -36,4 +36,8 @@ key str "channel_id"
 
 to get the channel id of a youtube channel, look at [this](https://stackoverflow.com/a/16326307) answer on Stackoverflow.
 
-{% include_relative notice-with-header.md %}
+## Notice
+
+{% include_relative copyright_schmidhuber_julian.md %}
+
+{% include_relative NOTICE %}

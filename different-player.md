@@ -51,4 +51,8 @@ If you are using e.g. [Clapper](https://flathub.org/apps/details/com.github.rafo
 PLAYER="flatpak-spawn --host flatpak run com.github.rafostar.Clapper"
 ```
 
-{% include_relative notice-with-header.md %}
+## Notice
+
+{% include_relative copyright_schmidhuber_julian.md %}
+
+{% include_relative NOTICE %}
