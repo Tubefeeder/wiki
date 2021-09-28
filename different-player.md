@@ -21,7 +21,7 @@ Depending on how you have installed the flatpak (user or system-wide) you will h
 
 ```
 flatpak --user override de.schmidhuberj.tubefeeder --talk-name=org.freedesktop.Flatpak
-sudo override de.schmidhuberj.tubefeeder --talk-name=org.freedesktop.Flatpak
+sudo flatpak  override de.schmidhuberj.tubefeeder --talk-name=org.freedesktop.Flatpak
 ```
 
 You can check that the command worked by using
