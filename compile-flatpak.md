@@ -12,7 +12,7 @@ substituting `/path/to/tubefeeder` with the path to the Tubefeeder-repo.
 To compile flatpak, use the following command in the `Flathub/de.schmidhuberj.Tubefeeder`-repo:
 
 ```
-flatpak-builder --install build-dir de.schmidhuberj.tubefeeder.json --force-clean
+flatpak-builder --user --install build-dir de.schmidhuberj.tubefeeder.json --force-clean
 ```
 
 ## Notice
