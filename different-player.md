@@ -15,7 +15,7 @@ Depending on how you have installed the flatpak (user or system-wide) you will h
 
 ```
 flatpak --user override de.schmidhuberj.tubefeeder --talk-name=org.freedesktop.Flatpak
-sudo override de.schmidhuberj.tubefeeder --talk-name=org.freedesktop.Flatpak
+sudo flatpak  override de.schmidhuberj.tubefeeder --talk-name=org.freedesktop.Flatpak
 ```
 
 You can check that the command worked by using
@@ -43,6 +43,16 @@ If you are using e.g. [Clapper](https://flathub.org/apps/details/com.github.rafo
 
 ```
 PLAYER="flatpak-spawn --host flatpak run com.github.rafostar.Clapper"
+```
+Depending on how you have installed the flatpak (user or system-wide):
+
+```
+flatpak --user override de.schmidhuberj.tubefeeder --env=PLAYER="flatpak-spawn --host flatpak run com.github.rafostar.Clapper"
+```
+or
+
+```
+sudo flatpak override de.schmidhuberj.tubefeeder --env=PLAYER="flatpak-spawn --host flatpak run com.github.rafostar.Clapper"
 ```
 
 ## Notice
