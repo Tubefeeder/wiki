@@ -1,11 +1,5 @@
 # Using a different video player
 
-# Note
-
-This is currently only possible in the [refactoring](https://github.com/Schmiddiii/Tubefeeder/pull/32) branch of the application or the beta-build of flatpak.
-
-The default player is mpv.
-
 # Change default player (not for flatpak)
 
 To change the default video player, use the environmental variable `PLAYER`. You can for example set this variable in your `.profile`, e.g

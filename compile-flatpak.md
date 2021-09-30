@@ -14,3 +14,9 @@ To compile flatpak, use the following command in the `Flathub/de.schmidhuberj.Tu
 ```
 flatpak-builder --install build-dir de.schmidhuberj.tubefeeder.json --force-clean
 ```
+
+## Notice
+
+{% include_relative copyright_schmidhuber_julian.md %}
+
+{% include_relative NOTICE %}
