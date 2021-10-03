@@ -22,6 +22,7 @@ This wiki contains:
 
 * [Compilation](https://tubefeeder.github.io/wiki/compilation.html)
 * [Compile Flatpak](https://tubefeeder.github.io/wiki/compile-flatpak.html)
+* [Write a new platform](https://tubefeeder.github.io/wiki/create-platform.html)
 * [Releasing](https://tubefeeder.github.io/wiki/release.html)
 
 ## Common problems
