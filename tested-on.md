@@ -28,7 +28,7 @@ sudo apk add git cargo glib glib-dev cairo-dev pango-dev atk-dev gdk-pixbuf-dev 
 
 Clone the repo and build:
 ```bash
-git clone https://github.com/Schmiddiii/Tubefeeder
+git clone https://github.com/Tubefeeder/Tubefeeder
 cd Tubefeeder
 
 cargo build --release

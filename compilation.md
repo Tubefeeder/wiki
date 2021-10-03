@@ -6,7 +6,7 @@
 
 ## Compilation
 
-Just clone the [repository](https://github.com/Schmiddiii/Tubefeeder) and run
+Just clone the [repository](https://github.com/Tubefeeder/Tubefeeder) and run
 
 ```
 cargo run
