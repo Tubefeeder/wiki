@@ -4,19 +4,74 @@
 
 ## Write the extractor
 
-It is best to make your extractor as light as possible. For this reason I would
-recommend a rss-feed if the platform has one.
+### Guidelines for a extractor
 
-If you have chosen a rss-feed take a look at the implementation of the 
-platform `Peertube`, you can copy-and-paste most of its code.
-If your platform has special tags you need, you will have to edit the 
-rss-structure defined in `tf_utils/src/rss.rss`. If your tag has `:`, replace 
-them with `/` in the `rss.rs`-file and in the `lib.rs`-file (see `media:` and
-`itunes:` as examples).
+It is best to make your extractor as light as possible. For this reason I would
+recommend a rss-feed if the platform has one. Please additionally make only one
+`GET`-request per subscription.
+
+### Writing the extractor
+
+#### Needed structs
+
+You will need two structs you define in your new platform, one for the video 
+and one for the subscription.
+
+Your video struct will just hold some basic information about the video that 
+can be queried, e.g. a playable url, the video title. It will have to implement
+the `Video`-trait defined in `tf_core/src/definitions/video.rs`. The 
+`Subscription`-type will be the subscription you define next.
+
+The subscription structure will hold information about the channel, e.g. the 
+name, and information that will be used to query the uploaded videos from the
+channel. You will have to implement the `Subscription`-trait defined in 
+`tf_core/src/definitions/subscription.rs`, the `Video`-type is the struct you 
+defined before.
+
+#### The extraction process
+
+To extract videos from the subscription, you will need to implement the 
+`GeneratorWithClient`-trait defined in `tf_core/src/definitions/generator.rs`.
+The `Item`-type will be your video, the `Iterator`-type will depend on your 
+implementation.
+
+
+##### RSS
+
+If you took the easy route of a rss-based extraction, you can use the tools 
+defined in `tf_utils/src/rss/rss_extractor.rs`. You will basically just need to 
+implement `RssExtractor` for your subscription to get the url of the rss feed
+and overwrite the `WithName` as you will most likly not have the subscription
+name when initializing the subscription.
+Your video will need to implement `FromItemAndSub`, the generic variable `S` 
+will be your defined subscription.
+
+If your rss feed requires some tags not already defined in the rss structure, 
+please edit `tf_utils/src/rss/structure.rs` to your liking.
+If the tag has `:`, please replace it with `/` and also do so in 
+`tf_utils/src/rss/rss_extractor.rs` similar to `media:` or `itune:`.
+
+Please see the `Peertube`-platform for a example.
+
+##### REST
 
 If your platform does not have a rss-feed or using one is not practical, you 
 will have to do most of the work manually, see the `Youtube`-platform as a 
 example.
+
+Please implement the REST-Client in a different crate if this is too complex
+or use a already defined crate if available.
+
+#### Thumbnails
+
+You will most likly have thumbnails for your video. If these thumbnails are
+`jpg`, `png` or any other in 
+[this table](https://docs.rs/image/0.23.14/image/codecs/index.html#supported-formats)
+supported platforms, you will just have to overwrite `thumbnail_url` for your 
+video. As `webp` currently is only supported grayscale-only you will have to 
+overwrite `convert_image` in your video, that will convert the image bytes to a
+usable `DynamicImage`. For a example, see the `YTVideo` defined in 
+`tf_platform_youtube/src/video.rs`.
 
 ## Integrate into `tf_join`
 
