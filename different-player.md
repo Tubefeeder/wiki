@@ -1,5 +1,7 @@
 # Using a different video player
 
+__Note__: Depending on the video player you use, you may not be able to play videos from all supported platforms.
+
 # Change default player (not for flatpak)
 
 To change the default video player, use the environmental variable `PLAYER`. You can for example set this variable in your `.profile`, e.g

@@ -8,18 +8,6 @@ Select your platform and input the information described below for your platform
 
 ## Youtube
 
-The channel name does not have to equal the shown name on the channel page. 
-To get your desired channel name, go to the persons youtube page and click `Home`.
-Now look at the URL you are currently on. 
-It should look like `https://www.youtube.com/c/{}/featured`, with `{}` beeing the desired channel name.
-
-You can also put a channel ID into the input box.
-For more information about the channel ID, read the next headline.
-
-# Currently in beta
-
-## Youtube
-
 Just type in your channel name. Tubefeeder will search the input in the youtube channels and take the first one.
 
 ## Peertube
