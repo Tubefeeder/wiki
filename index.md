@@ -8,9 +8,11 @@ This wiki contains:
 ## How to use the application
 
 * [Installing on the Pinephone](https://tubefeeder.github.io/wiki/installation.html)
+* [Installing a beta version](https://tubefeeder.github.io/wiki/installation-beta.html)
 * [Subscribing to a channel](https://tubefeeder.github.io/wiki/subscriptions.html)
 * [Creating filters](https://tubefeeder.github.io/wiki/filters.html)
 * [Using a different video player](https://tubefeeder.github.io/wiki/different-player.html)
+* [Using a different downloader](https://tubefeeder.github.io/wiki/different-downloader.html)
 
 ## Etc
 
