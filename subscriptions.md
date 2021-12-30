@@ -24,7 +24,7 @@ This is already done in the flatpak version, so nothing will need to be done the
 
 ## Lbry
 
-You will have to input the channel name in the format `abcdef:i` where `abcdef` is the channel name and `i` 
+You will have to input the channel name in the format `@abcdef:i` where `abcdef` is the channel name and `i` 
 is a single character. You can get this format by going to the channel page of the channel, the mentioned format 
 can be found in the url.
 
