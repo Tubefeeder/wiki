@@ -12,7 +12,7 @@ If you are using [NewPipe](https://newpipe.net/), you can migrate your subscript
 
 ## From YouTube
 
-You should be able to download your YouTube subscriptions as a `.csv` [here](https://takeout.google.com/settings/takeout/downloads). 
+You should be able to download your YouTube subscriptions as a `.csv` [here](https://takeout.google.com/takeout/custom/youtube). 
 Run the `tools/youtube_to_tubefeeder.sh` script and move the resulting output to "~/.local/share/tubefeeder/subscriptions.csv". 
 After restarting Tubefeeder, the subscriptions should be imported.
 
