@@ -2,18 +2,17 @@
 
 __Note__: Depending on the video player you use, you may not be able to play videos from all supported platforms.
 
-# Change default player (not for flatpak)
+# Using the settings (not for Flatpak)
 
-To change the default video player, use the environmental variable `PLAYER`. You can for example set this variable in your `.profile`, e.g
-by adding `PLAYER="myplayer"` to your `.profile`.
+Just change the value of the "Player"-field in the settings.
 
-# Changing for flatpak
+# Using the settings for Flatpak
 
-Changing the default player for the flatpak is a little bit harder as the flatpak version does not have access to run arbitrary commands on the host. You will have to change that permission manually. 
+Changing the default player for the Flatpak is a little bit harder as the Flatpak version does not have access to run arbitrary commands on the host. You will have to change that permission manually. Additionally, you will have to add a prefix to the command to execute it outside the sandbox.
 
 ## Changing the permissions
 
-Depending on how you have installed the flatpak (user or system-wide) you will have to run one of the following commands. If you are unsure how you have installed it, just try out both.
+Depending on how you have installed the Flatpak (user or system-wide) you will have to run one of the following commands. If you are unsure how you have installed it, just try out both.
 
 ```
 flatpak --user override de.schmidhuberj.tubefeeder --talk-name=org.freedesktop.Flatpak
@@ -33,29 +32,24 @@ You should see:
 org.freedesktop.Flatpak=talk
 ```
 
-## Apply the new player
+## Prefix
 
-You will have to set the `PLAYER` variable to:
-
-```
-PLAYER="flatpak-spawn --host myplayer"
-```
+You need to prefix your command with `flatpak-spawn --host` for it to be able to run outside of the sandbox. 
 
 If you are using e.g. [Clapper](https://flathub.org/apps/details/com.github.rafostar.Clapper), you will have to set it to:
 
 ```
-PLAYER="flatpak-spawn --host flatpak run com.github.rafostar.Clapper"
+flatpak-spawn --host flatpak run com.github.rafostar.Clapper
 ```
-Depending on how you have installed the flatpak (user or system-wide):
 
-```
-flatpak --user override de.schmidhuberj.tubefeeder --env=PLAYER="flatpak-spawn --host flatpak run com.github.rafostar.Clapper"
-```
-or
+# Using environmental variables
 
-```
-sudo flatpak override de.schmidhuberj.tubefeeder --env=PLAYER="flatpak-spawn --host flatpak run com.github.rafostar.Clapper"
-```
+__Note__: This overrides any values in the settings.
+
+To change the default video player, use the environmental variable `PLAYER`. You can for example set this variable in your `.profile`, e.g
+by adding `PLAYER="myplayer"` to your `.profile`.
+
+For Flatpak, you will again have to change the permissions of the Flatpak and set the `PLAYER` to `PLAYER="flatpak-spawn --host myplayer"`
 
 ## Notice
 

@@ -1,8 +1,8 @@
-# Using a different downloader
+# Using a different Downloader
 
-__Note__: Currently in Beta
+Using a different Downloader is similar to the process of [using a different player](https://tubefeeder.github.io/wiki/different-player.html). 
 
-Using a different downloader is similar to the process of [using a different player](https://tubefeeder.github.io/wiki/different-player.html). You will have to adjust the `DOWNLOADER` environmental variable.
+You can again change this directly in the settings, but with Flatpak you will also make sure that it has correct permissions and it is again prefixed by `flatpak-spawn --host`. You can also adjust the `DOWNLOADER` environmental variable.
 
 By default, this variable will be set to:
 
@@ -25,8 +25,6 @@ yt-dlp -f bestvideo[height<=720]+bestaudio/best[height<=720] --output $HOME/Down
 ```
 
 __Note__: Leaving out the Quotation Marks around the format somehow seems to be important.
-
-
 
 ## Notice
 
