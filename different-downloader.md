@@ -2,7 +2,7 @@
 
 Using a different Downloader is similar to the process of [using a different player](https://tubefeeder.github.io/wiki/different-player.html). 
 
-You can again change this directly in the settings, but with Flatpak you will also make sure that it has correct permissions and it is again prefixed by `flatpak-spawn --host`. You can also adjust the `DOWNLOADER` environmental variable.
+You can again change this directly in the settings or you can also adjust the `DOWNLOADER` environmental variable.
 
 By default, this variable will be set to:
 
