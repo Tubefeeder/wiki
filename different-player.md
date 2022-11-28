@@ -4,7 +4,9 @@ __Note__: Depending on the video player you use, you may not be able to play vid
 
 # Using the Preferences
 
-Just change the value of the "Player"-field in the `Preferences`. This value could e.g. be `mpv` or `flatpak run com.github.rafostar.Clapper`.
+__Note__: When the `PLAYER` environmental variable is set, the `player` field is disabled in the `Preferences`.
+
+Just change the value of the `Player` field in the `Preferences`. This value could e.g. be `mpv` or `flatpak run com.github.rafostar.Clapper`.
 
 # Using environmental variables
 
