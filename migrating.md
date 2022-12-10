@@ -4,7 +4,7 @@ You can easily import subscriptions from both NewPipe and YouTube from the GUI a
 
 For exporting the data from the applications, you will have to:
 
-* NewPipe: Export your subscriptions in the "Subscriptions" tab.
+* NewPipe: Export your subscriptions in the "Subscriptions" tab. Only YouTube subscriptions will be imported, non-YouTube subscriptions will be ignored.
 * YouTube: Download your YouTube subscriptions as a `.csv` [here](https://takeout.google.com/takeout/custom/youtube). 
 
 ## Old way (via scripts)
