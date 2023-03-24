@@ -3,42 +3,46 @@
 ## Prerequisites (on your computer)
 
 * [Rust](https://www.rust-lang.org/)
+* [Meson](https://mesonbuild.com/)
+* GTK Libraries
 
 ## Compilation
 
-Just clone the [repository](https://github.com/Tubefeeder/Tubefeeder) and run
+First, clone the [repository](https://github.com/Tubefeeder/Tubefeeder). Then compile the application:
 
 ```
-cargo run
+meson setup build
+meson compile -C build
 ```
 
-in the repositories root.
+You will also need to install the settings file. You will only need to do it once and if the settings changed.
 
-# Cross Compiling the binary for the PP
+```
+sudo cp data/de.schmidhuberj.tubefeeder.gschema.xml /usr/share/glib-2.0/schemas
+sudo glib-compile-schemas /usr/share/glib-2.0/schemas
+```
 
-__Note__: This method of compilation is heavily discouraged as it may take hours with only a small benefit on the PinePhone-side.
+Then you can run the application from the file `build/target/release/tubefeeder`.
 
-## Prerequisites (on your computer)
+## Installation
 
-* [Rust](https://www.rust-lang.org/)
-* [Docker](https://www.docker.com/)
-* [Cross](https://github.com/rust-embedded/cross)
+Make sure you have compiled the application like in the previous section.
 
-## Compilation
+Copy the binary to a folder in the `$PATH`, e.g. `/usr/bin`:
 
-* Clone this repository, `cd` into it
-* Run `docker buildx build --platform linux/arm64 -t tubefeeder docker` (this may take a long time)
-* Run `cross build --target=aarch64-unknown-linux-gnu` (this may also take a long time, reserve at least 4 hours of maximum CPU- and memory-usage)
+```
+sudo cp build/target/release/tubefeeder /usr/bin
+```
 
-## Installation on the Pinephone
+Edit the `Exec`-key of the `.desktop`-file to point to the installed program, e.g. `/usr/bin/tubefeeder`.
+Then copy the `.desktop`-file to `/usr/share/applications` (this path may differ depending on your distribution, e.g. Debian uses `/usr/local/share/applications`; you can also use the path `~/.local/share/applications/`):
 
-* Enable [ssh](https://www.ssh.com/ssh/) on the Pinephone, usually by running `sudo systemctl start sshd`
-* Copy the compiled binary to the Pinephone (e.g. `scp target/aarch64-unknown-linux-gnu/debug/tubefeeder {user}@{ip}:~/.local/bin/tubefeeder`, replace `{user}@{ip}` with the user and ip of your device, create any directories if any errors happen)
-* Optional but highly encouraged:
-    * Change `{user}` in the `packaging/tubefeeder.desktop` file to the user of your pinephone 
-    * Copy the .desktop file (e.g. `scp packaging/tubefeeder.desktop {user}@{ip}:~/.local/share/applications`)
-    * Copy the .png file (e.g. `scp packaging/tubefeeder.png {user}@{ip}:~/.local/share/icons`)
-    * Copy the locales file (Everything in `po/locale` with ending `.mo` into `/usr/share/locale` with the same structure)
+```
+sudo cp data/de.schmidhuberj.tubefeeder.desktop /usr/share/applications
+```
+
+You should now see the application in your desktop environment (if not, try restarting) and should be able to execute Tubefeeder.
+
 
 ## Notice
 
