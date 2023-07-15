@@ -8,7 +8,7 @@ Select your platform and input the information described below for your platform
 
 ## Youtube
 
-Just type in your channel name. Tubefeeder will search the input in the youtube channels and take the first one.
+Just type in your channel name. Pipeline will search the input in the youtube channels and take the first one.
 
 ## Peertube
 
@@ -29,7 +29,7 @@ is a single character. You can get this format by going to the channel page of t
 can be found in the url.
 
 __Note__: Currently youtube-dl and yt-dlp need to download the full video before playing.
-This will mean Tubefeeder will take quite a long time to open the videos.
+This will mean Pipeline will take quite a long time to open the videos.
 
 ## Notice
 

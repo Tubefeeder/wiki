@@ -1,4 +1,4 @@
-# Welcome to the Tubefeeder wiki!
+# Welcome to the Pipeline wiki!
 
 This wiki is open for everyone to edit, so please add any information you have found to the wiki.
 To contribute, please create a pull request in the [repository](https://github.com/Tubefeeder/wiki/tree/gh-pages).

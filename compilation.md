@@ -8,7 +8,7 @@
 
 ## Compilation
 
-First, clone the [repository](https://github.com/Tubefeeder/Tubefeeder). Then compile the application:
+First, clone the [repository](https://github.com/Tubefeeder/Pipeline). Then compile the application:
 
 ```
 meson setup build
@@ -41,7 +41,7 @@ Then copy the `.desktop`-file to `/usr/share/applications` (this path may differ
 sudo cp data/de.schmidhuberj.tubefeeder.desktop /usr/share/applications
 ```
 
-You should now see the application in your desktop environment (if not, try restarting) and should be able to execute Tubefeeder.
+You should now see the application in your desktop environment (if not, try restarting) and should be able to execute Pipeline.
 
 
 ## Notice

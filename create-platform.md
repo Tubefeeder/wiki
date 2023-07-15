@@ -90,9 +90,9 @@ some require more thinking (e.g. (de)serializing to csv).
 Please do not forget `#[feature = "platform"]` before your code, and also update
 the `join` example for testing.
 
-## Integrating into `Tubefeeder`
+## Integrating into `Pipeline`
 
-In `Tubefeeder` you will have to change two files. 
+In `Pipeline` you will have to change two files. 
 In `subscription_adder.rs` you will need to change what entry boxes are 
 visible when selecting your new platform (in the `view!`-macro, see the 
 `Peertube` platform for a example), and how your subscription will be 
