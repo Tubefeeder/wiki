@@ -7,31 +7,31 @@ This wiki contains:
 
 ## How to use the application
 
-* [Installing on the Pinephone](https://tubefeeder.github.io/wiki/installation.html)
-* [Installing a beta version](https://tubefeeder.github.io/wiki/installation-beta.html)
-* [Subscribing to a channel](https://tubefeeder.github.io/wiki/subscriptions.html)
-* [Creating filters](https://tubefeeder.github.io/wiki/filters.html)
-* [Using a different video player](https://tubefeeder.github.io/wiki/different-player.html)
-* [Using a different downloader](https://tubefeeder.github.io/wiki/different-downloader.html)
+* [Installing on the Pinephone](installation.md){: .page-link}
+* [Installing a beta version](installation-beta.md){: .page-link}
+* [Subscribing to a channel](subscriptions.md){: .page-link}
+* [Creating filters](filters.md){: .page-link}
+* [Using a different video player](different-player.md){: .page-link}
+* [Using a different downloader](different-downloader.md){: .page-link}
 
 ## Etc
 
-* [Migrating](https://tubefeeder.github.io/wiki/migrating.html)
-* [Touch-Controls for mpv](https://tubefeeder.github.io/wiki/mpv-touch-controlls.html)
-* [Tested distributions](https://tubefeeder.github.io/wiki/tested-on.html)
-* [Change Piped API](https://tubefeeder.github.io/wiki/change-piped-api.html)
+* [Migrating](migrating.md){: .page-link}
+* [Touch-Controls for mpv](mpv-touch-controlls.md){: .page-link}
+* [Tested distributions](tested-on.md){: .page-link}
+* [Change Piped API](change-piped-api.md){: .page-link}
 
 ## For developers
 
-* [Compilation](https://tubefeeder.github.io/wiki/compilation.html)
-* [Compile Flatpak](https://tubefeeder.github.io/wiki/compile-flatpak.html)
-* [Write a new platform](https://tubefeeder.github.io/wiki/create-platform.html)
-* [Releasing](https://tubefeeder.github.io/wiki/release.html)
+* [Compilation](compilation.md){: .page-link}
+* [Compile Flatpak](compile-flatpak.md){: .page-link}
+* [Write a new platform](create-platform.md){: .page-link}
+* [Releasing](release.md){: .page-link}
 
 ## Common problems
 
-* [Problems with screen dimming](https://tubefeeder.github.io/wiki/screen-dimming.html)
-* [MPV beeing slow](https://tubefeeder.github.io/wiki/mpv-slow.html)
+* [Problems with screen dimming](screen-dimming.md){: .page-link}
+* [MPV beeing slow](mpv-slow.md){: .page-link}
 
 ## Notice
 

@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   width="80"
+   height="26"
+   version="1.1"
+   id="svg10"
+   sodipodi:docname="page-logo.svg"
+   inkscape:version="1.2.2 (b0a8486541, 2022-12-01)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs14">
+    <filter
+       id="alpha-to-white"
+       x="0"
+       y="0"
+       width="1"
+       height="1">
+      <feColorMatrix
+         in="SourceGraphic"
+         type="matrix"
+         values="0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 1 0"
+         id="feColorMatrix375" />
+    </filter>
+    <linearGradient
+       id="Gradient"
+       x1="0"
+       x2="0"
+       y1="0"
+       y2="256"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(0.09375,0,0,0.09375,0,0.9999999)">
+      <stop
+         offset="0%"
+         style="stop-color:#F66151;stop-opacity:1"
+         id="stop370" />
+      <stop
+         offset="100%"
+         style="stop-color:#E01B24;stop-opacity:1"
+         id="stop372" />
+    </linearGradient>
+  </defs>
+  <sodipodi:namedview
+     id="namedview12"
+     pagecolor="#505050"
+     bordercolor="#ffffff"
+     borderopacity="1"
+     inkscape:pageshadow="0"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="1"
+     showgrid="false"
+     width="137px"
+     inkscape:current-layer="svg10"
+     showguides="true"
+     inkscape:guide-bbox="true"
+     inkscape:showpageshadow="2"
+     inkscape:deskcolor="#505050"
+     inkscape:zoom="8.8125"
+     inkscape:cx="40"
+     inkscape:cy="13.049645"
+     inkscape:window-width="1280"
+     inkscape:window-height="731"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1">
+    <inkscape:grid
+       type="xygrid"
+       id="grid5602"
+       originx="0"
+       originy="0" />
+    <sodipodi:guide
+       position="60,11"
+       orientation="0,-1"
+       id="guide140"
+       inkscape:locked="false" />
+  </sodipodi:namedview>
+  <g
+     id="g926">
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:900;font-stretch:normal;font-size:12px;line-height:1.25;font-family:Inter;-inkscape-font-specification:'Inter, Heavy';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:start;letter-spacing:0px;word-spacing:0px;text-anchor:start;fill:#000000;fill-opacity:1;stroke-width:1"
+       x="29.642046"
+       y="16.460228"
+       id="text2096"><tspan
+         sodipodi:role="line"
+         id="tspan2094"
+         style="font-style:normal;font-variant:normal;font-weight:900;font-stretch:normal;font-size:12px;font-family:Inter;-inkscape-font-specification:'Inter, Heavy';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:start;text-anchor:start;fill:#000000;fill-opacity:1;stroke-width:1"
+         x="29.642046"
+         y="16.460228">Pipeline</tspan></text>
+    <rect
+       width="24"
+       height="24"
+       fill="url(#Gradient)"
+       ry="12"
+       x="0"
+       y="1"
+       id="rect389"
+       style="fill:url(#Gradient);stroke-width:0.09375" />
+    <g
+       id="use391"
+       style="filter:url(#alpha-to-white)"
+       transform="matrix(0.75,0,0,0.75,6,7)">
+      <svg
+         height="16"
+         viewBox="0 0 16 16"
+         width="16"
+         version="1.1"
+         id="svg699">
+        <g
+           fill="#241f31"
+           id="g697">
+          <path
+             d="M 1,1 V 3 H 0 V 5 H 1 V 7 H 0 v 2 h 1 v 2 H 0 v 2 h 1 v 2 h 2 v -1 h 10 v 1 h 2 v -2 h 1 V 11 H 15 V 9 h 1 V 7 H 15 V 5 h 1 V 3 H 15 V 1 H 13 V 2 H 3 V 1 Z M 6.53125,5.4375 C 6.644531,5.42969 6.757812,5.457031 6.855469,5.511719 l 3.289062,1.976562 C 10.324219,7.59375 10.433594,7.789062 10.433594,8 c 0,0.210938 -0.109375,0.40625 -0.289063,0.511719 L 6.855469,10.488281 C 6.683594,10.589844 6.464844,10.59375 6.285156,10.492188 6.109375,10.390625 6,10.203125 6,10 V 6 C 6,5.699219 6.234375,5.453125 6.53125,5.4375 Z m 0,0"
+             id="path693" />
+          <path
+             d="m 6,6 v 4 c 0,0.203125 0.109375,0.390625 0.289062,0.492188 0.175782,0.101562 0.394532,0.09766 0.570313,-0.0078 l 3.28125,-1.96875 C 10.324219,8.40625 10.433594,8.210938 10.433594,8 c 0,-0.210938 -0.109375,-0.40625 -0.292969,-0.515625 L 6.859375,5.515625 C 6.683594,5.410156 6.464844,5.40625 6.289062,5.507812 6.109375,5.609375 6,5.796875 6,6 Z m 0,0"
+             fill-opacity="0.34902"
+             id="path695" />
+        </g>
+      </svg>
+    </g>
+  </g>
+</svg>
