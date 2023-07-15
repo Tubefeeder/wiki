@@ -1,6 +1,6 @@
 # Using a different Downloader
 
-Using a different Downloader is similar to the process of [using a different player](https://tubefeeder.github.io/wiki/different-player.html). 
+Using a different Downloader is similar to the process of [using a different player](different-player.md). 
 
 You can again change this directly in the settings or you can also adjust the `DOWNLOADER` environmental variable.
 

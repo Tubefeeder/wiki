@@ -1,3 +1,14 @@
-theme: jekyll-theme-slate
+# Site settings
 title: Pipeline Wiki
-description: " "
+baseurl: "/wiki" # the subpath of your site, e.g. /blog/
+                                 # usually empty. necessary for buidling absolute URIs
+                                 # for metadata header
+url: "https://www.tubefeeder.de"   # the base hostname & protocol for your site
+sourceurl: "https://github.com/Tubefeeder/wiki" # "edit this website" link in the footer
+description: "Pipeline Wiki."
+issuesurl: "https://github.com/Tubefeeder/wiki/issues" # issue tracker for website
+permalink: /:title/
+primary-color: "#e01b24" #used in ios theme. further color customization in style.css  
+
+# Build settings
+markdown: kramdown
